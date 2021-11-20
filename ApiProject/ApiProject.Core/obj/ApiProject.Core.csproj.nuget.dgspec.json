@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Shared\\ApiProject.Shared.csproj": {}
+    "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\ApiProject.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Shared\\ApiProject.Shared.csproj": {
+    "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\ApiProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Shared\\ApiProject.Shared.csproj",
-        "projectName": "ApiProject.Shared",
-        "projectPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Shared\\ApiProject.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\ApiProject.Core.csproj",
+        "projectName": "ApiProject.Core",
+        "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\ApiProject.Core.csproj",
         "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Shared\\obj\\",
+        "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",

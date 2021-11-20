@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMmpUuTohRUbxfzgZ0wDUBbGDn+CVcRyt4teiq78cLc5FZw57J+Xgv/af0qvMhMd+0P8prabrYz/cnZ07Ak+DQ==",
+  "dgSpecHash": "ScIpbavToFXG0CkYpGZ/W/bLJuU2SDxznFmyuuUMzcC26wzEl5UCSsnOOtsy/RqSKjAJ6J0KpqDGntPVHmXeHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj",
+  "projectFilePath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

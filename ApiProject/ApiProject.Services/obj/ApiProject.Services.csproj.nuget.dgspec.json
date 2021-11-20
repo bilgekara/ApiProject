@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj": {}
+    "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj": {
+    "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj",
+        "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj",
         "projectName": "ApiProject.Services",
-        "projectPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj",
+        "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Services\\ApiProject.Services.csproj",
         "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Services\\obj\\",
+        "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",

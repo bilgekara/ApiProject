@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ApiProject.Entities
-build_property.ProjectDir = C:\Users\karab\source\repos\ApiProject\ApiProject.Entities\
+build_property.ProjectDir = C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\

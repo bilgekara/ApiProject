@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.API\\ApiProject.API.csproj",
+      "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.API\\ApiProject.API.csproj",
       "projectName": "ApiProject.API",
-      "projectPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.API\\ApiProject.API.csproj",
+      "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.API\\ApiProject.API.csproj",
       "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.API\\obj\\",
+      "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",

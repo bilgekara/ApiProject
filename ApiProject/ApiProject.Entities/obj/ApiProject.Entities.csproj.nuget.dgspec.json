@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj": {}
+    "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj": {
+    "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj",
         "projectName": "ApiProject.Entities",
-        "projectPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj",
+        "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Entities\\ApiProject.Entities.csproj",
         "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karab\\source\\repos\\ApiProject\\ApiProject.Entities\\obj\\",
+        "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",
