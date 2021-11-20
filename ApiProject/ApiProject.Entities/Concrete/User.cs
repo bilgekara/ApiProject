@@ -17,6 +17,6 @@ namespace ApiProject.Entities.Concrete
         public string Description { get; set; }
         public int RoleId { get; set; }
         public Role Role { get; set; }
-        public ICollection<Image> Images { get; set; }
+        public ICollection<Photo> Images { get; set; }
     }
 }

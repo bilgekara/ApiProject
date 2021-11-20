@@ -38,22 +38,51 @@ namespace ApiProject.Core.Data.Concrete.EntityFramework
 
         public async Task DeleteAsync(TEntity entity)
         {
-            await Task.Run(() => { _context.Set<TEntity>().Remove(entity); });
+            await Task.Run(() => { _context.Set<TEntity>().Remove(entity); }); // remove bir async degil
         }
 
-        public Task<IList<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> predicate = null, params Expression<Func<TEntity, object>>[] includeProperties)
+        public async Task<IList<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> predicate = null, params Expression<Func<TEntity, object>>[] includeProperties)
         {
-            throw new NotImplementedException();
+            IQueryable<TEntity> query = _context.Set<TEntity>();
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+
+            if (includeProperties.Any())
+            {
+                foreach(var includeProperty in includeProperties)
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+
+            return await query.ToListAsync();
         }
 
-        public Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties)
+        public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties)
         {
-            throw new NotImplementedException();
+            IQueryable<TEntity> query = _context.Set<TEntity>();
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
+
+            if (includeProperties.Any())
+            {
+                foreach (var includeProperty in includeProperties)
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+
+            return await query.SingleOrDefaultAsync();
         }
 
-        public Task<TEntity> UpdateAsync(TEntity entity)
+        public async Task<TEntity> UpdateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            await Task.Run(() => { _context.Set<TEntity>().Update(entity); });
+            return entity;
         }
     }
 }

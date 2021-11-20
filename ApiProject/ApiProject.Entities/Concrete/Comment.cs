@@ -12,6 +12,6 @@ namespace ApiProject.Entities.Concrete
     {
         public string Text { get; set; }
         public int ImageId { get; set; }
-        public Image Image { get; set; }
+        public Photo Image { get; set; }
     }
 }

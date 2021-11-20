@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ApiProject.Entities.Concrete
 {
-    public class Image : EntityBase, IEntity
+    public class Photo : EntityBase, IEntity
     {
         public int PathName { get; set; }
         public string Title { get; set; }
