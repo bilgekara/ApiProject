@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ApiProject.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApiProject.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiProject.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ApiProject.Core/1.0.0": {
+      "type": "project",
+      "path": "../ApiProject.Core/ApiProject.Core.csproj",
+      "msbuildProject": "../ApiProject.Core/ApiProject.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ApiProject.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\karab\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\ApiProject.Core.csproj": {
+              "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.Core\\ApiProject.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
