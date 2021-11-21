@@ -1,4 +1,5 @@
-﻿using ApiProject.Entities.Concrete;
+﻿using ApiProject.Data.Concrete.EntityFramework.Mappings;
+using ApiProject.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,15 @@ namespace ApiProject.Data.Concrete.EntityFramework.Contexts
         {
             optionsBuilder.UseSqlServer(
                 @"Server=(localdb)\ProjectsV13;Database=ApiProject;Trusted_Connection=True;Connect Timeout=30;MultipleActiveResultSets=True;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder) // mapping
+        {
+            // veri tabanı olusturulurken buradaki konfigurasyon dosyaları uygulanacak
+            modelBuilder.ApplyConfiguration(new PhotoMap());
+            modelBuilder.ApplyConfiguration(new CommentMap());
+            modelBuilder.ApplyConfiguration(new RoleMap());
+            modelBuilder.ApplyConfiguration(new UserMap());
         }
     }
 }

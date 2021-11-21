@@ -11,7 +11,7 @@ namespace ApiProject.Entities.Concrete
     public class Comment : EntityBase, IEntity
     {
         public string Text { get; set; }
-        public int ImageId { get; set; }
-        public Photo Image { get; set; }
+        public int PhotoId { get; set; }
+        public Photo Photo { get; set; }
     }
 }
