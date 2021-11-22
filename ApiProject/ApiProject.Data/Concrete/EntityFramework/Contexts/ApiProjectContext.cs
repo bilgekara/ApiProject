@@ -18,7 +18,7 @@ namespace ApiProject.Data.Concrete.EntityFramework.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=(localdb)\ProjectsV13;Database=ApiProject;Trusted_Connection=True;Connect Timeout=30;MultipleActiveResultSets=True;");
+                @"Server=DESKTOP-R1PSP5J;Database=ApiProject;Trusted_Connection=True;Connect Timeout=30;MultipleActiveResultSets=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) // mapping

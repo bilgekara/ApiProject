@@ -35,7 +35,56 @@ namespace ApiProject.Data.Concrete.EntityFramework.Mappings
 
             builder.ToTable("Photos");
 
-
+            builder.HasData(
+                new Photo
+                {
+                    Id = 1,
+                    Title = "Resim 1 title",
+                    SeoDescription = "istanbul manzarasi",
+                    SeoTags = "manzara, istanbul, kule",
+                    SeoAuthor = "Bilgenur Kara",
+                    Date = DateTime.Now,
+                    IsActive = true,
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+                    Note = "istanbul manzarasi",
+                    UserId = 1,
+                    ViewCount = 100,
+                    CommentCount = 1
+                },
+                new Photo
+                {
+                    Id = 2,
+                    Title = "Resim 2 title",
+                    SeoDescription = "partide eglence",
+                    SeoTags = "parti, birthday, people",
+                    SeoAuthor = "Bilgenur Kara",
+                    Date = DateTime.Now,
+                    IsActive = true,
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+                    Note = "partide egleniyoruz",
+                    UserId = 1,
+                    ViewCount = 100,
+                    CommentCount = 1
+                },
+                new Photo
+                {
+                    Id = 3,
+                    Title = "Resim 3 title",
+                    SeoDescription = "architectural design",
+                    SeoTags = "architect, home, design",
+                    SeoAuthor = "Bilgenur Kara",
+                    Date = DateTime.Now,
+                    IsActive = true,
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+                    Note = "architectural design",
+                    UserId = 1,
+                    ViewCount = 100,
+                    CommentCount = 1
+                }
+            );
         }
     }
 }

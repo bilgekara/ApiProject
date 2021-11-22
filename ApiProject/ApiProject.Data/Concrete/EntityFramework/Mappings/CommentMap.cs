@@ -24,6 +24,55 @@ namespace ApiProject.Data.Concrete.EntityFramework.Mappings
             builder.Property(c => c.Note).HasMaxLength(500);
 
             builder.ToTable("Comments");
+
+            builder.HasData(   // veri tabanına ilk verileri ekliyoruz
+                new Comment
+                {
+                    Id = 1,
+                    PhotoId = 1,
+                    Text =
+                        "Lorem Ipsum pasajlarının birçok çeşitlemesi vardır." +
+                        " Ancak bunların büyük bir çoğunluğu mizah katılarak veya " +
+                        "rastgele sözcükler eklenerek değiştirilmişlerdir. " +
+                        "Eğer bir Lorem Ipsum pasajı kullanacaksanız, metin aralarına" +
+                        " utandırıcı sözcükler gizlenmediğinden emin olmanız gerekir. " ,
+                    IsActive = true,
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+                    Note = "Resim 1 Yorumu",
+                },
+                new Comment
+                {
+                    Id = 2,
+                    PhotoId = 2,
+                    Text =
+                        "Lorem Ipsum pasajlarının birçok çeşitlemesi vardır." +
+                        " Ancak bunların büyük bir çoğunluğu mizah katılarak veya " +
+                        "rastgele sözcükler eklenerek değiştirilmişlerdir. " +
+                        "Eğer bir Lorem Ipsum pasajı kullanacaksanız, metin aralarına" +
+                        " utandırıcı sözcükler gizlenmediğinden emin olmanız gerekir. ",
+                    IsActive = true,
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+                    Note = "Resim 2 Yorumu",
+                },
+                new Comment
+                {
+                    Id = 3,
+                    PhotoId = 3,
+                    Text =
+                        "Lorem Ipsum pasajlarının birçok çeşitlemesi vardır." +
+                        " Ancak bunların büyük bir çoğunluğu mizah katılarak veya " +
+                        "rastgele sözcükler eklenerek değiştirilmişlerdir. " +
+                        "Eğer bir Lorem Ipsum pasajı kullanacaksanız, metin aralarına" +
+                        " utandırıcı sözcükler gizlenmediğinden emin olmanız gerekir. ",
+                    IsActive = true,
+                    IsDeleted = false,
+                    CreatedDate = DateTime.Now,
+                    Note = "Resim 3 Yorumu",
+                }
+
+            );
         }
     }
 }

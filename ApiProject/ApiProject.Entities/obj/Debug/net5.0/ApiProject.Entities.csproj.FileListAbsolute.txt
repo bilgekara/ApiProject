@@ -1,0 +1,15 @@
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\bin\Debug\net5.0\ApiProject.Entities.deps.json
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\bin\Debug\net5.0\ApiProject.Entities.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\bin\Debug\net5.0\ref\ApiProject.Entities.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\bin\Debug\net5.0\ApiProject.Entities.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\bin\Debug\net5.0\ApiProject.Core.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\bin\Debug\net5.0\ApiProject.Core.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.csproj.AssemblyReference.cache
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.AssemblyInfoInputs.cache
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.AssemblyInfo.cs
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.csproj.CopyComplete
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ref\ApiProject.Entities.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Entities\obj\Debug\net5.0\ApiProject.Entities.pdb

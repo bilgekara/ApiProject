@@ -1,0 +1,12 @@
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\bin\Debug\net5.0\ApiProject.Core.deps.json
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\bin\Debug\net5.0\ApiProject.Core.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\bin\Debug\net5.0\ref\ApiProject.Core.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\bin\Debug\net5.0\ApiProject.Core.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.csproj.AssemblyReference.cache
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.AssemblyInfoInputs.cache
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.AssemblyInfo.cs
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ref\ApiProject.Core.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Core\obj\Debug\net5.0\ApiProject.Core.pdb

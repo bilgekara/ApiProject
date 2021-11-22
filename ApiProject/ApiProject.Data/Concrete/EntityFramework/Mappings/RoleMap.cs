@@ -26,6 +26,17 @@ namespace ApiProject.Data.Concrete.EntityFramework.Mappings
             builder.Property(r => r.Note).HasMaxLength(500);
 
             builder.ToTable("Roles");
+
+            builder.HasData(new Role // veri tabanına ilk verileri ekliyoruz
+            {
+                Id = 1,
+                Name = "Admin",
+                Description = "Admin Rolü, Tüm Haklara Sahiptir.",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedDate = DateTime.Now,
+                Note = "Admin Rolüdür."
+            });
         }
     }
 }

@@ -40,6 +40,24 @@ namespace ApiProject.Data.Concrete.EntityFramework.Mappings
 
             builder.ToTable("Users");
 
+            // veri tabanına ilk verileri ekliyoruz
+            builder.HasData(new User
+            {
+                Id = 1,
+                RoleId = 1,
+                FirstName = "Bilgenur",
+                LastName = "Kara",
+                UserName = "bilgeli",
+                Email = "karabilgenur@gmail.com",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedDate = DateTime.Now,
+                Description = "İlk Admin Kullanıcı",
+                Note = "Admin Kullanıcısı",
+                PasswordHash = Encoding.ASCII.GetBytes("0192023a7bbd73250516f069df18b500"),
+                Picture = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSX4wVGjMQ37PaO4PdUVEAliSLi8-c2gJ1zvQ&usqp=CAU"
+            });
+
         }
     }
 }
