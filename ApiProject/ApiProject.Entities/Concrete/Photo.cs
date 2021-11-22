@@ -10,7 +10,7 @@ namespace ApiProject.Entities.Concrete
 {
     public class Photo : EntityBase, IEntity
     {
-        public int PathName { get; set; }
+        public string PathName { get; set; }
         public string Title { get; set; }
         public DateTime Date { get; set; }
         public int ViewCount { get; set; }
