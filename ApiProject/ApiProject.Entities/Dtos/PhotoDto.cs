@@ -15,6 +15,6 @@ namespace ApiProject.Entities.Dtos
          * result durumuna gore front end de icerigi degistirebilirim
          * amac esneklik kazandırmak
          * */
-        public Photo photo { get; set; }
+        public Photo Photo { get; set; }
     }
 }
