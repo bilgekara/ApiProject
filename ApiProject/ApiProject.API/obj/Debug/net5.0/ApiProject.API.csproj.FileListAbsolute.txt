@@ -62,3 +62,8 @@ C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\n
 C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\net5.0\ApiProject.Data.pdb
 C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\net5.0\ApiProject.Entities.pdb
 C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\obj\Debug\net5.0\ApiProject.API.csproj.CopyComplete
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.API\obj\Debug\net5.0\ApiProject.API.MvcApplicationPartsAssemblyInfo.cs
