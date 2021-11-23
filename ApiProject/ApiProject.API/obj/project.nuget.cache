@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B7jkRBUtmouYBkDdDNaRInCcvGeiQ8nebJtTqDGSsAdxMNfq75Pfe/NxbxNWXmJpOx04CYG251Y6wnS+Gp1SRQ==",
+  "dgSpecHash": "y2DvyMEWFBLQ/guhYdq2Spj6l+GTj7A08esrAY2237UTNLkC30kxVaDt/GwdpLUcmT2a92Wq/strgVKflE78UA==",
   "success": true,
   "projectFilePath": "C:\\Users\\karab\\Documents\\GitHub\\ApiProject\\ApiProject\\ApiProject.API\\ApiProject.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karab\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\karab\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\karab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\karab\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\karab\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

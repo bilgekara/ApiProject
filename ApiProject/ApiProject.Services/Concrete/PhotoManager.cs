@@ -84,7 +84,7 @@ namespace ApiProject.Services.Concrete
         }
 
 
-        public async Task<IResult> Add(PhotoAddDto photoAddDto, string createdByName)
+        public async Task<IResult> Add(PhotoAddDto photoAddDto)
         {
             // bizlere parametre oalrak gelen PhotoAddDto'nun bir Photo'ya map edilmesini istiyoruz
             var photo = _mapper.Map<Photo>(photoAddDto);
@@ -94,7 +94,7 @@ namespace ApiProject.Services.Concrete
             return new Result(ResultStatus.Success, $"{photoAddDto.Title} başlıklı fotoğraf başarıyla eklenmiştir.");
         }
 
-        public async Task<IResult> Delete(int photoId, string modifiedByName)
+        public async Task<IResult> Delete(int photoId)
         {
             var result = await _unitOfWork.Photos.AnyAsync(p => p.Id == photoId);
             if (result)
@@ -121,7 +121,7 @@ namespace ApiProject.Services.Concrete
             return new Result(ResultStatus.Error, "Böyle bir fotoğraf bulunamadı.");
         }
 
-        public async Task<IResult> Update(PhotoUpdateDto photoUpdateDto, string modifiedByName)
+        public async Task<IResult> Update(PhotoUpdateDto photoUpdateDto)
         {
             var photo = _mapper.Map<Photo>(photoUpdateDto);
             await _unitOfWork.Photos.UpdateAsync(photo);

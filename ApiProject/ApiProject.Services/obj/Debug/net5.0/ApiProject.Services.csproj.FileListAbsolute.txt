@@ -10,3 +10,10 @@ C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\obj\De
 C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\obj\Debug\net5.0\ApiProject.Services.dll
 C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\obj\Debug\net5.0\ref\ApiProject.Services.dll
 C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\obj\Debug\net5.0\ApiProject.Services.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\bin\Debug\net5.0\ApiProject.Core.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\bin\Debug\net5.0\ApiProject.Data.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\bin\Debug\net5.0\ApiProject.Entities.dll
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\bin\Debug\net5.0\ApiProject.Core.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\bin\Debug\net5.0\ApiProject.Data.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\bin\Debug\net5.0\ApiProject.Entities.pdb
+C:\Users\karab\Documents\GitHub\ApiProject\ApiProject\ApiProject.Services\obj\Debug\net5.0\ApiProject.Services.csproj.CopyComplete

@@ -57,7 +57,7 @@ namespace ApiProject.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 954, DateTimeKind.Local).AddTicks(2653),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 190, DateTimeKind.Local).AddTicks(6070),
                             IsActive = true,
                             IsDeleted = false,
                             Note = "Resim 1 Yorumu",
@@ -67,7 +67,7 @@ namespace ApiProject.Data.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 954, DateTimeKind.Local).AddTicks(2672),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 190, DateTimeKind.Local).AddTicks(6093),
                             IsActive = true,
                             IsDeleted = false,
                             Note = "Resim 2 Yorumu",
@@ -77,7 +77,7 @@ namespace ApiProject.Data.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 954, DateTimeKind.Local).AddTicks(2676),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 190, DateTimeKind.Local).AddTicks(6097),
                             IsActive = true,
                             IsDeleted = false,
                             Note = "Resim 3 Yorumu",
@@ -112,8 +112,8 @@ namespace ApiProject.Data.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<int>("PathName")
-                        .HasColumnType("int");
+                    b.Property<string>("PathName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SeoAuthor")
                         .IsRequired()
@@ -152,12 +152,11 @@ namespace ApiProject.Data.Migrations
                         {
                             Id = 1,
                             CommentCount = 1,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 951, DateTimeKind.Local).AddTicks(952),
-                            Date = new DateTime(2021, 11, 22, 10, 22, 32, 950, DateTimeKind.Local).AddTicks(9964),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 187, DateTimeKind.Local).AddTicks(1233),
+                            Date = new DateTime(2021, 11, 23, 13, 23, 32, 186, DateTimeKind.Local).AddTicks(9231),
                             IsActive = true,
                             IsDeleted = false,
                             Note = "istanbul manzarasi",
-                            PathName = 0,
                             SeoAuthor = "Bilgenur Kara",
                             SeoDescription = "istanbul manzarasi",
                             SeoTags = "manzara, istanbul, kule",
@@ -169,12 +168,11 @@ namespace ApiProject.Data.Migrations
                         {
                             Id = 2,
                             CommentCount = 1,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 951, DateTimeKind.Local).AddTicks(2430),
-                            Date = new DateTime(2021, 11, 22, 10, 22, 32, 951, DateTimeKind.Local).AddTicks(2428),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 187, DateTimeKind.Local).AddTicks(3326),
+                            Date = new DateTime(2021, 11, 23, 13, 23, 32, 187, DateTimeKind.Local).AddTicks(3324),
                             IsActive = true,
                             IsDeleted = false,
                             Note = "partide egleniyoruz",
-                            PathName = 0,
                             SeoAuthor = "Bilgenur Kara",
                             SeoDescription = "partide eglence",
                             SeoTags = "parti, birthday, people",
@@ -186,12 +184,11 @@ namespace ApiProject.Data.Migrations
                         {
                             Id = 3,
                             CommentCount = 1,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 951, DateTimeKind.Local).AddTicks(2436),
-                            Date = new DateTime(2021, 11, 22, 10, 22, 32, 951, DateTimeKind.Local).AddTicks(2435),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 187, DateTimeKind.Local).AddTicks(3331),
+                            Date = new DateTime(2021, 11, 23, 13, 23, 32, 187, DateTimeKind.Local).AddTicks(3330),
                             IsActive = true,
                             IsDeleted = false,
                             Note = "architectural design",
-                            PathName = 0,
                             SeoAuthor = "Bilgenur Kara",
                             SeoDescription = "architectural design",
                             SeoTags = "architect, home, design",
@@ -239,7 +236,7 @@ namespace ApiProject.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 956, DateTimeKind.Local).AddTicks(356),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 192, DateTimeKind.Local).AddTicks(1354),
                             Description = "Admin Rolü, Tüm Haklara Sahiptir.",
                             IsActive = true,
                             IsDeleted = false,
@@ -320,7 +317,7 @@ namespace ApiProject.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2021, 11, 22, 10, 22, 32, 971, DateTimeKind.Local).AddTicks(7179),
+                            CreatedDate = new DateTime(2021, 11, 23, 13, 23, 32, 208, DateTimeKind.Local).AddTicks(330),
                             Description = "İlk Admin Kullanıcı",
                             Email = "karabilgenur@gmail.com",
                             FirstName = "Bilgenur",

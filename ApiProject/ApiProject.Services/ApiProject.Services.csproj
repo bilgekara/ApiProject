@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ApiProject.Core\ApiProject.Core.csproj" />
     <ProjectReference Include="..\ApiProject.Data\ApiProject.Data.csproj" />
     <ProjectReference Include="..\ApiProject.Entities\ApiProject.Entities.csproj" />

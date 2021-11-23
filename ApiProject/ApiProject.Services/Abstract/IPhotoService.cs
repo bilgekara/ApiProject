@@ -25,9 +25,9 @@ namespace ApiProject.Services.Abstract
         Task<IDataResult<PhotoListDto>> GetAllByNonDeleted();
         Task<IDataResult<PhotoListDto>> GetAllByNonDeletedAndActive();
 
-        Task<IResult> Add(PhotoAddDto photoAddDto, string createdByName);
-        Task<IResult> Update(PhotoUpdateDto photoUpdateDto, string modifiedByName);
-        Task<IResult> Delete(int photoId, string modifiedByName);
+        Task<IResult> Add(PhotoAddDto photoAddDto);
+        Task<IResult> Update(PhotoUpdateDto photoUpdateDto);
+        Task<IResult> Delete(int photoId);
         Task<IResult> HardDelete(int photoId);
 
     }
