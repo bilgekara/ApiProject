@@ -54,6 +54,8 @@ namespace ApiProject.Services.Concrete
             return new DataResult<PhotoListDto>(ResultStatus.Error, "Fotoğraflar bulunamadı.", null);
         }
 
+        
+        
         public async Task<IDataResult<PhotoListDto>> GetAllByNonDeleted()
         {
             var photos = await _unitOfWork.Photos.GetAllAsync(p => !p.IsDeleted, p => p.User);
@@ -128,6 +130,8 @@ namespace ApiProject.Services.Concrete
             await _unitOfWork.SaveAsync();
             return new Result(ResultStatus.Success, $"{photoUpdateDto.Title} başlıklı fotoğraf başarıyla güncellenmiştir.");
         }
+
+
     }
 
 }

@@ -32,7 +32,9 @@ namespace ApiProject.API.Controllers
         [HttpGet("getall")]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _photoService.GetAllByNonDeleted();
+            //var result = await _photoService.GetAllByNonDeleted();
+            var result = await _photoService.Get(1);
+
             //var photos = JsonSerializer.Serialize(result.Data, new JsonSerializerOptions
             //{
             //    ReferenceHandler = ReferenceHandler.Preserve
@@ -40,12 +42,6 @@ namespace ApiProject.API.Controllers
             return Ok(result);
         }
 
-        // GET api/<PhotosController>/5
-        [HttpGet("getbyid")]
-        public string GetById(int id)
-        {
-            return "value";
-        }
         [HttpPost("add")]
         public async Task<IActionResult> Add(PhotoAddDto photoAddDto)
         {
